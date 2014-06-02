@@ -167,9 +167,9 @@ namespace oracleTsushin_test001
         private static string ConnectionStringORA(DbProviderFactory factory)
         {
             DbConnectionStringBuilder csb = factory.CreateConnectionStringBuilder();
-            csb.Add("Data Source", "172.16.37.7:1521/INF02");
-            csb.Add("User ID", "INTERF");
-            csb.Add("Password", "INTERF");
+            csb.Add("Data Source", "xxx.xxx.xxx.xxx:9999/SID");
+            csb.Add("User ID", "USERID");
+            csb.Add("Password", "PASSWORD");
             
             return csb.ConnectionString;
         }
