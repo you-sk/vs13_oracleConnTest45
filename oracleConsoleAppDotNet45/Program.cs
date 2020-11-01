@@ -18,8 +18,8 @@ namespace oracleTsushin_test001
             //デリゲートにメソッドをセット
             DlgConn cnn = ConnectionStringORA; //接続先情報(共通)
             //接続プロバイダ
-            DlgFactory odpfct = FactoryODP; //ODP.Net(Oracle社実装)
-            DlgFactory adofct = FactoryADO; //ADO.Net(MS社実装)
+            DlgFactory odpfct = FactoryODP; //ODP.Net(Oracle実装)
+            DlgFactory adofct = FactoryADO; //ADO.Net(MS実装：廃止される)
             //実装方法
             DlgAccessMethod exrd = UseExecuteReader; //executeReadeによる実装
             DlgAccessMethod dtap = UseDataAdapter; //dataAdapterによる実装
